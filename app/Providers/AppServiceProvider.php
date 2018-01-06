@@ -25,7 +25,7 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
     	// Enable MariaDB default for migrations
-		Schema::defaultStringLength(191);
+		\Schema::defaultStringLength(191);
     }
 
     /**
